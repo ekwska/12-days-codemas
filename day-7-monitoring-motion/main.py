@@ -32,7 +32,7 @@ def alarm(buzzer, volume):
         
         time.sleep(1)
         
-        buzzer.freq(500) # higher pitch
+        buzzer.freq(500) # lower pitch
         red.value(0)
         amber.value(0)
         green.value(0)
